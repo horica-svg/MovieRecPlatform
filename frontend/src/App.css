@@ -1,0 +1,95 @@
+body {
+  background-color: #121212;
+  color: #e0e0e0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+.app-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+h1 {
+  color: #ffeb3b;
+  margin-bottom: 30px;
+}
+.main-content-two-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  text-align: left;
+}
+.card {
+  background: #1e1e1e;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  background: #2d2d2d;
+  border: 1px solid #444;
+  color: white;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+form button {
+  width: 100%;
+  padding: 10px;
+  background: #e50914;
+  color: white;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+form button:hover {
+  background: #b80710;
+}
+.movie-grid,
+.rec-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-height: 500px;
+  overflow-y: auto;
+}
+.movie-card,
+.rec-card {
+  background: #2d2d2d;
+  padding: 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: 0.2s;
+}
+.movie-card:hover {
+  border-color: #e50914;
+}
+.movie-card.active {
+  border-color: #ffeb3b;
+  background: #353535;
+}
+.badge {
+  background: #00bcd4;
+  color: black;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+.badge-rec {
+  background: #4caf50;
+  color: white;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+}
+.hint {
+  color: #888;
+  font-style: italic;
+}
