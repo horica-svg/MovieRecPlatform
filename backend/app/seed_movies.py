@@ -1,7 +1,7 @@
 import requests
 import time
 
-TMDB_API_KEY = "67166b7e73c1835f063e5c7b187e7348"
+TMDB_API_KEY = "API_KEY"
 FASTAPI_URL = "http://127.0.0.1:8000/movies/"
 WINDOW_SIZE = 5
 

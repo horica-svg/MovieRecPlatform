@@ -1,0 +1,33 @@
+# === Python & Virtual Environments ===
+.venv/
+venv/
+ENV/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# === Node.js / React (Frontend) ===
+node_modules/
+dist/
+dist-ssr
+*.local
+.eslintcache
+
+# === Docker & Databases ===
+.docker/
+*.db
+*.sqlite3
+
+# === IDEs & System Files ===
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# === Securitate & Secrete (IMPORTANT) ===
+.env
+.env.local
+.env.*.local
